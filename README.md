@@ -297,3 +297,8 @@ Params size (MB): 0.03
 Estimated Total Size (MB): 0.56
 ----------------------------------------------------------------
 ```
+
+
+This has been executed on EC2 instance
+
+![Screenshot of Model Training on EC2](screenshot.JPG)
