@@ -31,20 +31,6 @@ This project leverages the MNIST dataset to test and evaluate the performance of
    pip install -r requirements.txt
    ```
 
-## Usage
-1. Prepare the dataset:
-   - The MNIST dataset is automatically downloaded using PyTorch's `torchvision.datasets.MNIST` module.
-
-2. Train the model:
-   ```bash
-   python train.py
-   ```
-   
-3. Evaluate the model:
-   ```bash
-   python evaluate.py
-   ```
-
 ## Results
 - **Training Accuracy**: Achieved 99.27% accuracy after 15 epochs.
 - **Test Accuracy**: Achieved 99.4% accuracy on the test set.
@@ -81,12 +67,14 @@ Accuracy is not able to be reached above 99.36 and there are overfitting problem
 ## Model 3
 **Targets**:
 
-Results:
-Parameters: 13808
-Best Train Accuracy: 98.42
-Best Test Accuracy: 99.40% (8th Epoch), 99.40% (12th Epoch)
+**Results**:
+Parameters: 8392
 
-Analysis:
+Best Train Accuracy: 97.37
+
+Best Test Accuracy: 98.49
+
+**Analysis**:
 
 ## Model 4
 **Targets**:
