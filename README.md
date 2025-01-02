@@ -51,31 +51,35 @@ This project leverages the MNIST dataset to test and evaluate the performance of
 
 
 ## Model 1
-Targets: 
+**Targets**: 
 Achieve good accuracy with no restriction in parameters.
 
-Results: 
+**Results**: 
 Parameters: 13808
+
 Best Train Accuracy: 98.42
+
 Best Test Accuracy: 99.40% (8th Epoch), 99.40% (12th Epoch)
 
-Analysis:
+**Analysis**:
 Architecture is fine, need to reduce the parameters
 
 ## Model 2
-Targets:
+**Targets**:
 Needs to reduce the parameters while maintaining the accuracy
 
-Results:
+**Results**:
 Parameters: 5636
+
 Best Train Accuracy: 98.67
+
 Best Test Accuracy: 99.34% (7th Epoch), 99.36% (10th Epoch)
 
-Analysis:
+**Analysis**:
 Accuracy is not able to be reached above 99.36 and there are overfitting problem after 10th epochs. So needs to find different alternative
 
 ## Model 3
-Targets:
+**Targets**:
 
 Results:
 Parameters: 13808
@@ -85,11 +89,15 @@ Best Test Accuracy: 99.40% (8th Epoch), 99.40% (12th Epoch)
 Analysis:
 
 ## Model 4
-Targets:
+**Targets**:
+Find the model with less than 8k parameters but to acheive 99.4% accuracy
 
-Results:
+**Results**:
+
 Parameters: 7776
+
 Best Train Accuracy: 98.70
+
 Best Test Accuracy: 99.48% (12th Epoch), 99.46% (14th Epoch)
 
 Analysis:
